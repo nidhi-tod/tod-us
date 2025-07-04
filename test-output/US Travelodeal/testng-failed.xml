@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [US Travelodeal]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SubmitEnquiriesTest(failed)">
+    <classes>
+      <class name="tests.SubmitEnquiriesTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="searchDeal"/>
+        </methods>
+      </class> <!-- tests.SubmitEnquiriesTest -->
+    </classes>
+  </test> <!-- SubmitEnquiriesTest(failed) -->
+  <test thread-count="5" name="SubmitContactUsEnquiriesTest(failed)">
+    <classes>
+      <class name="tests.SubmitContactUsEnquiriesTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="fillContactUsForm"/>
+        </methods>
+      </class> <!-- tests.SubmitContactUsEnquiriesTest -->
+    </classes>
+  </test> <!-- SubmitContactUsEnquiriesTest(failed) -->
+  <test thread-count="5" name="SubmitGroupBookingEnquiriesTest(failed)">
+    <classes>
+      <class name="tests.SubmitGroupBookingEnquiriesTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="fillGroupBookingForm"/>
+        </methods>
+      </class> <!-- tests.SubmitGroupBookingEnquiriesTest -->
+    </classes>
+  </test> <!-- SubmitGroupBookingEnquiriesTest(failed) -->
+</suite> <!-- Failed suite [US Travelodeal] -->
