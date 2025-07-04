@@ -29,10 +29,11 @@ public class VerifyAllSeoTest extends BaseTest {
                 ConsoleLogger.logPlain("   • Expected sitemap:   " + sitemapUrl);
             } else if (robotsSource == null || robotsSource.trim().isEmpty() || robotsSource.contains("404")) {
                 ConsoleLogger.logError("❌ robots.txt is missing or returned 404.");
+                ConsoleLogger.logError("❌ robots.txt is missing or returned 404.");
                 ConsoleLogger.logPlain("   • Checked URL:        " + robotsUrl);
             } else {
                 ConsoleLogger.logError("❌ robots.txt found but missing sitemap entry.");
-                ConsoleLogger.logPlain("   • Expected sitemap:   " + sitemapUrl);
+                ConsoleLogger.logPlain("   • Expected sitemap:   sdfasdf" + sitemapUrl);
             }
 
         } catch (Exception e) {
